@@ -1,15 +1,18 @@
-
+import './App.css'
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1 className="card">React learning </h1>
+      <Device></Device>
     </>
   )
+}
+
+function Device() {
+  return( <div className="div1">
+    <h1>Device world</h1>
+    <h2>This is device no </h2>
+  </div>)
 }
 
 export default App
