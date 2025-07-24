@@ -5,7 +5,7 @@ const Singer = ({name, genre, albums}) => {
     <div>
       <h2>Singer Name: {name}</h2>
       <p>Genre: {genre}</p>
-      <p>Albums:</p>
+      <p>Albums List:</p>
       <ol>
        {albums.map((album, index) => (
         <li key={index} >{album}</li> 
