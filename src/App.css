@@ -1,23 +1,7 @@
-.div1 {
-  border: 2px solid greenyellow;
-  background-color: aqua;
-  padding: 50px;
-  border-radius: 5px;
-}
-.div2 {
-  border: 2px solid rgb(183, 224, 1);
-  background-color: rgb(18, 158, 0);
-  padding: 50px;
-  border-radius: 18px;
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.div3 {
-  border: 2px solid rgb(5, 0, 0);
-  background-color: rgb(206, 0, 0);
-  padding: 50px;
-  border-radius: 18px;
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
-}
